@@ -15,9 +15,12 @@
 2. Go to your OpenCart admin area and click on plugins management -> plugins installation -> upload
 ![](./img/upload.png)
 3. Activate the Coinpal OpenCart Gateway
+
 Go to your OpenCart admin area and click on plugins management -> plugins management -> payment module
-![](./img/install.png)
+
 Find the payment method Coinpal, click install
+![](./img/install.png)
+
 ![](./img/edit.png)
 
 Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
@@ -40,8 +43,6 @@ Click Confirm Order
 
 Click the “Confirm Order” button.
 ![](./img/checkout2.png)
-
-
 
 Verify all of the Wallet Addresses and Order info, and make sure the Validation Tests all have a Green Check Mark.
 
