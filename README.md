@@ -10,18 +10,15 @@
 3. Click the 'Integration' button in the lower left corner to get the corresponding Merchant Id and Secret Key
 ![](./img/api-key.png)
 
-## Step 2: Installing the WooCommerce Plugin on your Wordpress Site.
-1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_wordpress/blob/main/coinpal.zip)  Download Coinpal WooCommerce Payment Plug
-2. Go to your OpenCart admin area and click on plugins installation-> Install Plugins -> upload
+## Step 2: Installing the Coinpal Plugin on your OpenCart Site.
+1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal WooCommerce Payment Plug
+2. Go to your OpenCart admin area and click on plugins management -> plugins installation -> upload
 ![](./img/upload.png)
 3. Activate the Coinpal OpenCart Gateway
+Go to your OpenCart admin area and click on plugins management -> plugins management -> payment module
 ![](./img/install.png)
+Find the payment method Coinpal, click install
 ![](./img/edit.png)
-
-
-Go to the WooCommerce Section, click Settings.
-
-Press the Payments Tab at the top, Enable Coinpal, and press Manage.
 
 Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
 
@@ -36,12 +33,15 @@ Add Test Item to Shopping Cart and View Cart.
 
 Proceed to Checkout
 
-Select Coinpal as the Payment Method.
+Select Pay Crpto with Coinpal as the Payment Method.
 
-Click Place Order
-
-Click the “Pay Now with Coinpal” button.
+Click Confirm Order
 ![](./img/checkout.png)
+
+Click the “Confirm Order” button.
+![](./img/checkout2.png)
+
+
 
 Verify all of the Wallet Addresses and Order info, and make sure the Validation Tests all have a Green Check Mark.
 
