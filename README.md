@@ -1,4 +1,4 @@
-# WooCommerce Coinpal Checkout Installation
+# OpenCart Coinpal Checkout Installation
 
 ## Step 1: Login Coinpal Admin Dashboard get Merchant No and Secret Key.
 1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to Coinpal's Admin Dashboard 
@@ -12,11 +12,11 @@
 
 ## Step 2: Installing the WooCommerce Plugin on your Wordpress Site.
 1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_wordpress/blob/main/coinpal.zip)  Download Coinpal WooCommerce Payment Plug
-2. Go to your WordPress admin area and click on Plugins -> Install Plugins -> Upload Plugins
-![](./img/upload-plug.png)
-3. Activate the Coinpal WooCommerce Gateway
-![](./img/wp-coinpal-payments.png)
-![](./img/wp-coinpal-setting.png)
+2. Go to your OpenCart admin area and click on plugins installation-> Install Plugins -> upload
+![](./img/upload.png)
+3. Activate the Coinpal OpenCart Gateway
+![](./img/install.png)
+![](./img/edit.png)
 
 
 Go to the WooCommerce Section, click Settings.
@@ -41,7 +41,7 @@ Select Coinpal as the Payment Method.
 Click Place Order
 
 Click the “Pay Now with Coinpal” button.
-![](./img/wp-checkout.png)
+![](./img/checkout.png)
 
 Verify all of the Wallet Addresses and Order info, and make sure the Validation Tests all have a Green Check Mark.
 
@@ -49,11 +49,11 @@ If you like you can now proceed to making a test payment.
 
 
 
-## Step 4: Marking a Payment as Received on WooCommerce.
+## Step 4: Marking a Payment as Received on OpenCart.
 
-Login to your Wordpress Admin Dashboard.
+Login to your OpenCart Admin Dashboard.
 
-Go to the WooCommerce Section and Click Orders.
+Go to the OpenCart Section and Click Orders.
 
 You will see the Test Orders Marked as “Paid”
 
