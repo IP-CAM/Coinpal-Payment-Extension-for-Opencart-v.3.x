@@ -11,7 +11,7 @@
 ![](./img/api-key.png)
 
 ## Step 2: Installing the Coinpal Plugin on your OpenCart Site.
-1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal WooCommerce Payment Plug
+1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal OpenCart Payment Plug
 2. Go to your OpenCart admin area and click on plugins management -> plugins installation -> upload
 ![](./img/upload.png)
 3. Activate the Coinpal OpenCart Gateway
