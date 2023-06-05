@@ -10,36 +10,28 @@
 ![](./img/api-key.png)
 
 ## Step 2: Installing the Coinpal Plugin on your OpenCart Site.
-1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal OpenCart Payment Plug
-
-1. Upload module content to the path below magento :  /magento/app/code/
-
-2. In command line, navigate to the magento root folder
-Enter the following commands:
-
-```
-php bin/magento module:enable Coinpal_Checkout --clear-static-content
-php bin/magento setup:upgrade
-```
-
+1. Click the  [Coinpal plug](https://github.com/coinpal-io/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal OpenCart Payment Plug
 
 2. Go to your OpenCart admin area and click on plugins management -> plugins installation -> upload
+
 ![](./img/upload.png)
+
 3. Activate the Coinpal OpenCart Gateway
 
     Go to your OpenCart admin area and click on plugins management -> plugins management -> payment module
 
     Find the payment method Coinpal, click install
+    
 ![](./img/install.png)
-
-![](./img/edit.png)
 
 Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
 
 Click Save Changes.
 
+![](./img/edit.png)
 
-## Step 3: Testing your Coinpal WooCommerce Integration.
+
+## Step 3: Testing your Coinpal OpenCart Integration.
 
 To confirm your Integration is properly working create a test order:
 
