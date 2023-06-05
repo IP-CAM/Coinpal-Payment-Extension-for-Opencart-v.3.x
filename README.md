@@ -2,7 +2,6 @@
 
 ## Step 1: Login Coinpal Admin Dashboard get Merchant No and Secret Key.
 1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to Coinpal's Admin Dashboard 
-
 ![](./img/register.png)
 
 2. Follow the Dashboard guidelines to fill in the relevant information
@@ -12,6 +11,18 @@
 
 ## Step 2: Installing the Coinpal Plugin on your OpenCart Site.
 1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal OpenCart Payment Plug
+
+1. Upload module content to the path below magento :  /magento/app/code/
+
+2. In command line, navigate to the magento root folder
+Enter the following commands:
+
+```
+php bin/magento module:enable Coinpal_Checkout --clear-static-content
+php bin/magento setup:upgrade
+```
+
+
 2. Go to your OpenCart admin area and click on plugins management -> plugins installation -> upload
 ![](./img/upload.png)
 3. Activate the Coinpal OpenCart Gateway
