@@ -1,6 +1,6 @@
 # OpenCart Coinpal Checkout Installation
 
-## Step 1: Login Coinpal Admin Dashboard get Merchant No and Secret Key.
+## Step 1: Log in to the Coinpal Admin Dashboard to get the Merchant Number and Secret Key.
 1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to Coinpal's Admin Dashboard 
 ![](./img/register.png)
 
@@ -10,9 +10,9 @@
 ![](./img/api-key.png)
 
 ## Step 2: Installing the Coinpal Plugin on your OpenCart Site.
-1. Click the  [Coinpal plug](https://github.com/coinpal-io/plug_opencart/blob/master/coinpal.ocmod.zip)  Download Coinpal OpenCart Payment Plug
+1. Click on the [Coinpal plugin](https://github.com/coinpal-io/plug_opencart/blob/master/coinpal.ocmod.zip) to download the Coinpal OpenCart Payment Plug.
 
-2. Go to your OpenCart admin area and click on plugins management -> plugins installation -> upload
+2. Navigate to your OpenCart admin area and follow this path: plugins management -> plugins installation -> upload.
 
 ![](./img/upload.png)
 
@@ -20,7 +20,7 @@
 
     Go to your OpenCart admin area and click on plugins management -> plugins management -> payment module
 
-    Find the payment method Coinpal, click install
+    Find the payment method named 'Coinpal' and click 'install'.
     
 ![](./img/install.png)
 
@@ -35,11 +35,11 @@ Click Save Changes.
 
 To confirm your Integration is properly working create a test order:
 
-Add Test Item to Shopping Cart and View Cart.
+Add a test item to your shopping cart and view the cart.
 
 Proceed to Checkout
 
-Select Pay Crpto with Coinpal as the Payment Method.
+Select 'Pay Crypto with Coinpal' as the payment method.
 
 Click Confirm Order
 ![](./img/checkout.png)
@@ -59,9 +59,9 @@ Login to your OpenCart Admin Dashboard.
 
 Go to the OpenCart Section and Click Orders.
 
-You will see the Test Orders Marked as “Paid”
+You will see the test orders marked as “Paid”.
 
-Verify the Coins are in your chosen Coinpal Wallet (The addresses you input in Step #1.)
+Verify the coins are in your chosen Coinpal Wallet (these are the addresses you input during Step #1).
 
 You may also use a Block Explorer to verify if the transaction was processed.
 
