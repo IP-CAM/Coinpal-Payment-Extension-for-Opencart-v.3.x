@@ -42,14 +42,18 @@ Proceed to Checkout
 Select 'Pay Crypto with Coinpal' as the payment method.
 
 Click Confirm Order
+
 ![](./img/checkout.png)
 
 Click the “Confirm Order” button.
-![](./img/checkout2.png)
 
 Verify all of the Wallet Addresses and Order info, and make sure the Validation Tests all have a Green Check Mark.
 
 If you like you can now proceed to making a test payment.
+
+![](./img/checkout2.png)
+
+
 
 
 
@@ -61,7 +65,7 @@ Go to the OpenCart Section and Click Orders.
 
 You will see the test orders marked as “Paid”.
 
-Verify the coins are in your chosen Coinpal Wallet (these are the addresses you input during Step #1).
+Check whether coins are settled to the CoinPal wallet.
 
 You may also use a Block Explorer to verify if the transaction was processed.
 
