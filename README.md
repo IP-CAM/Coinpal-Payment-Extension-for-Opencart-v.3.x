@@ -16,19 +16,29 @@
 
 ![](./img/upload.png)
 
-3. Activate the Coinpal OpenCart Gateway
+3. Add custom order status
+   
+   Go to your OpenCart admin area and click on System Settings -> Parameter settings -> Order Status
+    
+   Add partial paid status and save
+   
+![](./img/custom_status1.png)   
 
-    Go to your OpenCart admin area and click on plugins management -> plugins management -> payment module
+![](./img/custom_status2.png)
+
+4. Activate the Coinpal OpenCart Gateway
+
+    Go to your OpenCart admin area and click on Plugins management -> Plugins management -> Payment module
 
     Find the payment method named 'Coinpal' and click 'install'.
     
-![](./img/install.png)
+![](./img/add1.png)
 
 Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
 
 Click Save Changes.
 
-![](./img/edit.png)
+![](./img/add2.png)
 
 
 ## Step 3: Testing your Coinpal OpenCart Integration.
